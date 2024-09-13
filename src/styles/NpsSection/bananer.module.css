@@ -1,0 +1,40 @@
+.banner{
+    width:100%;
+    height:367px;
+    background-image: url("/nspimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 199px;
+    /* margin-top: -111px; */
+
+}
+.text1{
+    display: flex;
+    gap:10px;
+    color:white;
+    flex-direction:column;
+    padding:10px 140px;
+    padding-top:150px;
+}
+.p1{
+    text-align: center;
+    font-size:30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    line-height:1.2;
+}
+.p2{
+    color:grey;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+.colortext{
+    color:#8CBC43;
+}
+@media only screen and (max-width: 768px){
+    .text1{
+       
+        padding:120px 0px;
+    
+    }
+}

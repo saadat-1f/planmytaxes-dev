@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  nextjs-app:
+    container_name: ${WEB_CONTAINER_NAME}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${HOST_PORT}:3000"
+    env_file:
+      - .env
+    networks:
+      cim_cim_identity_network: null
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+
+networks:
+  cim_cim_identity_network:
+    external: true

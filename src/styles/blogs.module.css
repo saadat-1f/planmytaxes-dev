@@ -1,0 +1,127 @@
+.mainContainer {
+  gap: 40px;
+  margin: 30px 140px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.planmytaxlogo {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.title {
+  font-size: 30px;
+  font-family: "league_spartan";
+  font-weight: 600;
+  text-align: center;
+}
+.herosection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 10px;
+}
+.col1section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  padding:10px;
+}
+.col2section{
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.col2section img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+.blogTittle {
+  font-size: 25px;
+  font-family: "league_spartan";
+  font-weight: 500;
+}
+.paragraph {
+  font-size: 17px;
+  font-family: "league_spartan";
+  line-height: 1.2;
+  font-weight: 100;
+  color: #636363;
+}
+.readmore {
+    font-size: 13px;
+    padding: 11px 30px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.readmore:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.blogContainer {
+  background-color: grey;
+  border: 2px solid red;
+  height: 300px;
+  width: 100%;
+}
+.blogTitle{
+    font-family: 'league_spartan'; 
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.header_content_blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.linka{
+  text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+/* media query  */
+
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    margin: 25px;
+  }
+  .herosection {
+    padding: 0px;
+
+    /* flex-direction: column; */
+  }
+  .col2section img {
+    width: 100%;
+    /* margin-bottom: 20px; */
+  }
+  .planmytaxlogo {
+    font-size: 20px;
+  }
+  .blogTittle {
+    font-size: 20px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+  .col1section{
+    gap: 17px;
+    padding:10px;
+  }
+  .herosection{
+    flex-direction: column-reverse;
+    gap: 30px;
+
+}
+}

@@ -1,0 +1,121 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 5% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .planmytaxlogo{
+    color: white;
+    margin: 0px 140px;
+    padding: 20px 0px;
+    text-decoration: none;
+    
+  }
+  .linka{
+    text-decoration: none;
+    color:white;
+  }
+  .blogsConatine {
+    background-color: rgb(
+      1,
+      1,
+      44
+    ); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(54, 54, 54), rgb(0 0 0));
+    width: 100%;
+  }
+  .title {
+    font-size: 50px;
+    color: #fff;
+    font-family: "league_spartan";
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 3rem;
+  }
+  .blogabout {
+    display: flex;
+    flex-direction: column;
+    /* margin: 30px 140px; */
+    margin: 30px auto;
+    width: 65%;
+    gap: 20px;
+  }
+  .bloginnerTitle {
+    font-size: 20px;
+  
+    font-family: "league_spartan";
+  }
+  .paragraph {
+    font-size: 16px;
+    font-family: "league_spartan";
+    font-weight: 500;
+    color: #757575;
+    line-height: 1.2;
+  }
+  .blogTitle {
+    font-family: "league_spartan";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .header_content_blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    color: rgb(255, 255, 255);
+    margin: 0px 140px;
+  }
+  .blodSubheader{
+    font-weight: 600;
+      color: black;
+  }
+  .list{
+    margin-top: -11px;
+      margin-left: 30px;
+      color: #8b8b8b;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.65;
+  }
+  @media screen and (max-width: 767px) {
+    .planmytaxlogo {
+      color: white;
+      margin: 0px 20px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .title {
+      font-size: 20px;
+      color: #fff;
+  
+      font-weight: 400;
+    }
+    .blogabout {
+      /* margin: 30px 25px; */
+      width: 80%;
+      margin: 30px auto;
+    }
+    .mainContainer {
+      padding: 10% 0;
+    }
+    .bloginnerTitle {
+      font-size: 25px;
+    }
+    .header_content_blog{
+        margin: 0 10%;
+    }
+    .title{
+        font-size: 2rem;
+        line-height: 1.8rem;
+        font-weight: 600;
+        width: 80%;
+        color: #c6c6c6;
+    }
+  }
+  

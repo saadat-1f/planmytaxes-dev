@@ -1,0 +1,36 @@
+.faqSection{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 45px;
+}
+.question{
+   
+    font-family: "Rajdhani", sans-serif;
+   
+    color:#023904;
+    font-size: 19px;
+    font-weight: 600;
+}
+.ans{
+    font-size: 16px;
+    color:black;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    
+}
+@media only screen and (max-width: 768px){
+    .faqSection{
+        
+        padding:20px 24px;
+        gap: 45px;
+    }
+    .ans{
+font-size:14px;
+    }
+    .question{
+       
+        font-size: 17px;
+       
+    }
+}

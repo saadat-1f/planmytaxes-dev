@@ -1,0 +1,348 @@
+.mainContainer {
+  gap: 40px;
+  background-color: rgb(12 12 12);
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  padding-bottom: 34px;
+  flex-direction: column;
+}
+.container_wrap {
+  width: 100%;
+  background: rgb(12, 12, 12);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding:100px;
+}
+.flex_conatiner_cards {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 0px 172px;
+  background:rgb(12 12 12);
+}
+.sticky_aibox {
+  width: 100%;
+  /* height: 200px; */
+  background: rgb(241, 243, 246);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 46px;
+  position: sticky;
+  top: 150px;
+  transition: all 0.5s linear 0s;
+  border: 1px solid rgb(214 214 214);
+  gap: 10px;
+}
+.planmytaxlogo {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+.title {
+  font-size: 30px;
+  font-family: "league-spartan";
+  font-weight: 600;
+  text-align: center;
+}
+.herosection {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+
+  background: #f2f5f5;
+
+  border-radius: 10px;
+
+  height: auto;
+  border: 1px solid #eaeaea;
+}
+
+.col1section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+  width: 100%;
+}
+
+.col2section img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 273px;
+}
+.blogTittle {
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+}
+.paragraph {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #504f4f;
+  line-height: 22px;
+}
+.line {
+  width: 100%;
+  border-bottom: 2px solid rgb(34 34 34);
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs_right_col{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.viewall {
+  font-size: 19px;
+  color: green;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+.sticky_title {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #636363;
+}
+.aiasst {
+  font-size: 17px;
+  padding: 7px 30px;
+  background: #8cbc43;
+  width: 100%;
+  color: rgb(255, 255, 255);
+
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.readmore {
+  padding: 7px 30px;
+  background: #ffffff;
+  color: #8cbc43;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  border: 1px solid #8cbc43;
+}
+
+.readmore:hover {
+  background-color: #8cbc43;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 1px solid #8cbc43;
+}
+
+.blogContainer {
+  background-color: grey;
+  border: 2px solid red;
+  height: 300px;
+  width: 100%;
+}
+.blogTitle {
+  font-family: "league-spartan";
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.header_content_blog {
+  color: rgb(255, 255, 255);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 25px;
+
+  background: rgb(12, 12, 12);
+  font-weight: 500;
+}
+.text_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+.plantaxe_blogs_title{
+  color:#8cbc43;
+  font-size: 20px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+}
+.blogImg1 {
+  position: relative;
+  width:100%;
+  /* border: 10px solid; */
+}
+.card_title{
+  color: #bebebe;
+    font-size: 24px;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+}
+.card_title_p{
+  font-size: 13px;
+  color: #939393;
+  font-family: "Onest", sans-serif;
+  font-weight:300;
+}
+.blogImg2 {
+  position: absolute;
+  top: 433px;
+  width: 18%;
+  box-shadow: 0px 10px 20px gray;
+  left: 488px;
+}
+.plantaxes_logo {
+  width: 70%;
+  font-size: 63px;
+  font-weight: 800;
+  color: #9d9d9d;
+  position: relative;
+
+  opacity: 0.1;
+  animation: 10s linear 0s infinite normal none running blogslider;
+}
+.plantaxe_logo {
+  font-size: 48px;
+  font-weight:500;
+  color: #ffffff;
+ padding-bottom:50px;
+font-family: "Onest", sans-serif;
+}
+.our_blog_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 51px 172px; */
+  gap: 43px;
+}
+.blogsimges {
+  display: flex;
+  /* width: 100%; */
+  border: 1px solid #212121;
+
+  background: #121111;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.blogs_wraper{
+  padding: 24px;
+}
+.blog_header_title {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 23px;
+  font-weight: 300;
+  color: #ababab;
+}
+@keyframes blogslider {
+  0% {
+    color: rgb(132, 148, 197);
+    transform: translateX(0px);
+  }
+
+  25% {
+  }
+  50% {
+    color: rgb(225, 240, 231);
+    transform: translateX(150px);
+  }
+  75% {
+    color: rgb(243, 192, 183);
+  }
+  100% {
+    color: rgb(231, 235, 248);
+    transform: translateX(0px);
+  }
+}
+
+/* media query  */
+
+@media screen and (max-width: 767px) {
+  .mainContainer {
+    margin: 0;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .header_content_blog {
+    padding: 21px 26px;
+  }
+  .herosection {
+    padding: 0px;
+    flex-direction: column;
+  }
+  .col2section img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .readmore {
+    font-size: 15px;
+  }
+  .planmytaxlogo {
+    font-size: 20px;
+  }
+  .blogTittle {
+    font-size: 20px;
+  }
+  .paragraph {
+    line-height: 22px;
+    font-size: 17px;
+  }
+  .col1section {
+    gap: 8px;
+  }
+  .herosection {
+    border-bottom: 2px solid #dbdbdb;
+    gap: 0px;
+  }
+  .col2section {
+    padding-top: 0px;
+  }
+  .flex_conatiner_cards {
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+  }
+  .our_blog_banner {
+    padding: 0px;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .plantaxe_logo {
+    padding: 0px;
+    font-size: 50px;
+  }
+  .blogImg2 {
+    display: none;
+  }
+  .blogImg1 {
+    width: 100%;
+  }
+}

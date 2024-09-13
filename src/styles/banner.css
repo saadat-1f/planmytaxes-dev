@@ -1,0 +1,233 @@
+header {
+    overflow-x: hidden;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.plantaxes_logo {
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.9px;
+    color: #0D121C;
+}
+
+.download_btn {
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 700;
+    color: #F5F6F9;
+    background-color: #000;
+    padding: 13px 24px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+/* banner section */
+.banner_section {
+    text-align: center;
+    position: relative;
+}
+
+.banner_section_wrapper {
+    max-width: 1160px;
+    margin: 48px auto 0;
+}
+
+.banner_section::before {
+    content: '';
+    width: 309px;
+    height: 309px;
+    border-radius: 309px;
+    opacity: .2;
+    background-color: #F64D00;
+    filter: blur(83.46px);
+    display: inline-block;
+    position: absolute;
+    left: -215px;
+}
+
+.banner_section::after {
+    content: '';
+    width: 334px;
+    height: 334px;
+    border-radius: 334px;
+    opacity: .2;
+    background-color: #45C646;
+    filter: blur(82.34px);
+    display: inline-block;
+    position: absolute;
+    right: -215px;
+    bottom: 0;
+}
+
+.solution_pill {
+    color: #F64D00;
+    background-color: rgba(255,188,153,0.20);
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 48px 0 8px 0;
+}
+
+.banner_header {
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'league_spartan';
+    letter-spacing: -2.7px;
+    color: #0D121C;
+    max-width: 885px;
+    margin: 0 auto 24px;
+}
+
+.banner_content {
+    font-size: 20px;
+    font-family: 'league_spartan';
+    color: #697586;
+    letter-spacing: -0.2px;
+    margin-bottom: 12px;
+}
+
+.banner_content:last-child {
+    margin-bottom: 0;
+}
+
+.banner_image {
+    margin-top: 115px;
+    width: 890px;
+    height: 400px;
+}
+
+.banner_image_container {
+    position: relative;
+}
+
+.banner_image_container::before {
+    content: '';
+    background: url('../../public/asset/images/star.svg');
+    width: 53px;
+    height: 53px;
+    display: inline-block;
+    position: absolute;
+    top: 42%;
+    left: 46px;
+}
+
+.banner_image_container::after {
+    content: '';
+    background: url('../../public/asset/images/Highlight.svg') no-repeat center;
+    width: 121px;
+    height: 198px;
+    background-position: -52px -42px;
+    display: inline-block;
+    background-size: 150%;
+    position: absolute;
+    top: 4px;
+    right: 46px;
+}
+.blogTitle{
+    font-family: 'league_spartan'; 
+    text-decoration: none;
+    color:black;
+}
+
+
+@media (max-width: 540px) {
+
+    .header_content {
+        gap: 10px;
+    }
+    .plantaxes_logo {
+        font-family: 'poppins';
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.48px;
+    }  
+
+    .download_btn {
+        font-size: 12px;
+        padding: 9px 16px;
+        border-radius: 28px;
+    }
+
+    .solution_pill {
+        font-size: 12px;
+        letter-spacing: -0.5px;
+        line-height: 20px;
+        padding: 8px 16px;
+        margin: 47px 0 20px 0;
+    }
+
+    .banner_header {
+        font-size: 48px;
+        letter-spacing: -1.44px;
+        max-width: 327px;
+        margin: 0 auto 20px;
+        line-height: normal;
+    }
+
+    .banner_section_wrapper {
+        max-width: unset;
+        margin: 0 24px;
+    }
+
+    .banner_content {
+        max-width: 327px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.18px;
+        margin-bottom: 8px;
+    }
+    .banner_content:last-child {
+        margin-bottom: 0;
+    }
+    .banner_image {
+        margin-top: 92px;
+        height: 173px;
+        width: 100%;
+    }
+
+    .banner_image_container::before {
+        content: '';
+        background: url('../../public/asset/images/star.svg');
+        width: 21px;
+        height: 21px;
+        display: inline-block;
+        position: absolute;
+        top: 81px;
+        left: 18px;
+        background-size: 100%;
+    }
+
+    .banner_image_container::after {
+        content: '';
+        background: url(/_next/static/media/Highlight.1d6a3a83.svg) no-repeat center;
+        width: 70px;
+        height: 88px;
+        background-position: -19px -4px;
+        display: inline-block;
+        background-size: 119%;
+        position: absolute;
+        top: -8px;
+        right: -7px;
+    }
+}
+
+
+
+
+
+
+

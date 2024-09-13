@@ -1,0 +1,267 @@
+.containerform {
+  /* background-color: #333333; */
+  background-image:url("/Wave-1 (4).png");
+  margin: 45px 450px;
+  color: #ffffff;
+  padding: 25px 46px;
+  border-radius: 10px;
+  background-size: cover;
+
+}
+.input_file{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items:normal;
+
+}
+.menufile {
+  /* padding:46px 10px; */
+  display: flex;
+flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 30px;
+  margin-top: 20px;
+}
+.otherdeduction{
+  display: flex;
+  gap:8px;
+  margin-top: 22px;
+  justify-content: space-between;
+}
+.otherdeduction_row1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width:100%;
+}
+.btnsection{
+  display: flex;
+    flex-direction: column;
+    width: 100%;
+gap: 5px;
+}
+.btnEnter{
+  border: 1px dashed black;
+width: 100%;
+padding:8px;
+}
+
+.input1 {
+  width: 100%;
+  /* height: 45px; */
+}
+.input2{
+  margin-top: 10px;
+}
+.frombtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  height: 40px;
+}
+
+.frombtn.enabled {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  border-radius: 9px;
+  padding: 5px 27px;
+}
+
+.frombtn.disabled {
+  background-color: rgb(75 105 87);
+  color: white;
+  cursor: not-allowed;
+  margin-top: 20px;
+  /* border-radius: 9px; */
+  padding: 5px 27px;
+
+}
+.inputtext {
+  width: 100%;
+  /* height: 45px; */
+  color: #000000;
+  padding: 7px 12px;
+  /* border-radius: 10px; */
+  font-size: 12px;
+}
+.Uploadbtn {
+  border: 1px solid #212121;
+  padding: 5px 52px;
+  position: absolute;
+  bottom: 20px;
+}
+.input1 h3 {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+}
+.haeder {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+
+  font-family: "Rajdhani", sans-serif;
+}
+.uploadtext{
+  color:black;
+  font-size: 13px;
+}
+.haedertitle {
+  font-weight: 600;
+  font-size: 16px;
+  color: #949393;
+
+  font-family: "Rajdhani", sans-serif;
+}
+.uplodefile{
+  display: flex;
+    /* flex-direction: column; */
+    gap:15px;
+    justify-content: space-evenly;
+
+}
+.fileuplode {
+  display: flex;
+  gap: 7px;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px 39px;
+  background-color: white;
+  /* border-radius: 10px; */
+
+}
+
+.alert {
+  position: fixed;
+  top: 120px;
+  right: 60px;
+  background-color: #36f492a0; /* Red background color */
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.closebtn {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+.flexcal{
+  display: flex;
+  /* gap: 100px; */
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+.innerBorder{
+  border-radius: 20px;
+    background: #212121;
+    padding: 20px 25px;
+
+}
+.tax_comparison{
+  
+  color: white;
+  /* background: rgb(6, 6, 8);
+  background: linear-gradient(90deg, rgba(6, 6, 8, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(13, 60, 2, 1) 100%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 40px 265px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  gap:50px;
+}
+.title{
+  font-size: 25px;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+}
+.table_tile{
+  font-size: 22px;
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
+}
+.regime_title{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+
+}
+.table_container{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+
+}
+.old_new_row{
+  justify-content: space-between;
+  display: flex;
+  /* gap: 20px; */
+  align-items: center;
+
+}
+.btnbg:hover{
+background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .containerform {
+    margin: 95px 25px;
+
+    padding: 15px;
+  }
+  .input_file{
+    flex-direction: column;
+  }
+  .menufile {
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 0px;
+  }
+  .haeder {
+    font-size: 17px;
+    margin-bottom: 22px;
+  }
+  .input1 h3 {
+    font-size: 14px;
+  }
+  .haedertitle {
+    font-size: 14px;
+  }
+  .tax_comparison{
+    margin: 10px;
+    padding: unset;
+  }
+  .flexcal{
+    flex-direction: column;
+  }
+  .table_container{
+    padding: unset;
+  }
+}

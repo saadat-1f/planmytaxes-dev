@@ -1,0 +1,48 @@
+.aboutpages{
+    width: 100%;
+    background-color: white;
+    padding: 66px 168px;
+height:100vh;
+
+}
+.innerrow{
+    display: flex;
+}
+.title{
+    font-weight: 500;
+    font-family: "Rajdhani", sans-serif;
+    color: #9092A3;
+    
+    font-size: 20px;
+
+}
+.h1tag{
+    font-size: 75px;
+    line-height: 0.9;
+    font-weight: 800;
+    font-family: "Rajdhani", sans-serif;
+    color: #0a2b02;
+
+}
+.titlepragraph{
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: #9092A3;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+.aboutpages{
+   padding: 45px 24px;
+   
+}
+.h1tag{
+    font-size: 57px;
+}
+.titlepragraph{
+ font-size: 14px;
+}
+.title{
+    font-size: 18px;
+}
+}
